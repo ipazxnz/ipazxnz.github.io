@@ -25,15 +25,15 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.zhiliaoapp.musically</string>
+				<string>opensource.jasmine</string>
 				<key>bundle-version</key>
-				<string>1.0</string>
+				<string>1.4.8</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>subtitle</key>
 				<string>App Subtitle</string>
 				<key>title</key>
-				<string>TikTok</string>
+				<string>Jamine</string>
 			</dict>
 		</dict>
 	</array>
