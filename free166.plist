@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://drive.google.com/file/d/16576S8alcQPK0nmJaiLfgUW6ZkPVH2Z7/view?usp=sharing</string>
+					<string>https://ipazxnz.github.io/j184.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -19,21 +19,21 @@
 					<key>needs-shine</key>
 					<true/>
 					<key>url</key>
-					<string>https://tkzxzb.github.io/tiktok.jpg</string>
+					<string>https://ipazxnz.github.io/tiktok.jpg</string>
 				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.zhiliaoapp.musically</string>
+				<string>opensource.jasmine</string>
 				<key>bundle-version</key>
-				<string>1.0</string>
+				<string>1.4.8</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>subtitle</key>
 				<string>App Subtitle</string>
 				<key>title</key>
-				<string>TikTok</string>
+				<string>Jamine</string>
 			</dict>
 		</dict>
 	</array>
