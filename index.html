@@ -2,30 +2,55 @@
 <html>
 <head>
 <meta charset="utf-8">
-    <title>iOS软件安装</title>
-    <style>
-        body {
-            background-image: url("https://xinzhuobu.com/?p=11379#images"); /* 替换为您的远程图片的URL */
-            background-size: cover; /* 设置背景图片大小适应屏幕 */
-            background-position: center; /* 设置背景图片居中 */
-        }
-        h1 {
-            text-align: center; /* 将<h1>元素居中 */
-            font-weight: bold; /* 加粗字体 */
-        }
-    </style>
+<title>iOS软件安装</title>
+<style>
+    h1 {
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .rounded-box {
+        border: 2px solid #000;
+        border-radius: 10px;
+        padding: 10px;
+        display: inline-block;
+        margin: 10px;
+        background-color: #FFFFE0;
+        color: #FFFFFF;
+    }
+</style>
+<script>
+    window.onload = function() {
+        var wallpapers = [
+           "/Users/jackie/Desktop/1.jpg",
+            "/Users/jackie/Desktop/2.jpg",
+            "/Users/jackie/Desktop/3.jpg",
+            "/Users/jackie/Desktop/4.jpg",
+            "/Users/jackie/Desktop/5.jpg",
+            // 添加更多壁纸链接...
+        ];
+
+        var randomIndex = Math.floor(Math.random() * wallpapers.length);
+        var randomWallpaper = wallpapers[randomIndex];
+
+        document.body.style.backgroundImage = "url('" + randomWallpaper + "')";
+        document.body.style.backgroundRepeat = "no-repeat";
+        document.body.style.backgroundSize = "cover";
+    };
+</script>
 </head>
 <body>
     <h1>iOS软件安装</h1>
     
-    <h2><a href="https://ipazxnz.github.io/tknz/index.html">tiktok</a></h2>
+    <h2 class="rounded-box"><a href="https://ipazxnz.github.io/tknz/index.html">tiktok</a></h2>
     
-    <h2><a href="https://ipazxnz.github.io/jmaz">jm</a></h2>
+    <h2 class="rounded-box"><a href="https://ipazxnz.github.io/jmaz">jm</a></h2>
     
-    <h2><a href="pageC.html">其他</a></h2>
+    <h2 class="rounded-box"><a href="pageC.html">其他</a></h2>
     
 </body>
 </html>
+
 
 
 
