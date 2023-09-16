@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>iOS软件安装</title>
+<title>iOS软件在线安装</title>
 <style>
     h1 {
         text-align: center;
@@ -18,43 +18,54 @@
         background-color: #FFFFE0;
         color: #FFFFFF;
     }
+
+    body {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 </style>
 <script>
     window.onload = function() {
-        var wallpapers = [
-           "https://ipazxnz.github.io/bizhi/1.jpg",
+        var mobileWallpapers = [
+            "https://ipazxnz.github.io/sjbizhi/1.JPG",
+            "https://ipazxnz.github.io/sjbizhi/2.JPG",
+            "https://ipazxnz.github.io/sjbizhi/3.JPG",
+            "https://ipazxnz.github.io/sjbizhi/4.JPG",
+            // 添加更多手机壁纸链接...
+        ];
+
+        var desktopWallpapers = [
+            "https://ipazxnz.github.io/bizhi/1.jpg",
             "https://ipazxnz.github.io/bizhi/2.jpg",
             "https://ipazxnz.github.io/bizhi/3.jpg",
             "https://ipazxnz.github.io/bizhi/4.jpg",
             "https://ipazxnz.github.io/bizhi/5.jpg",
-            // 添加更多壁纸链接...
+            // 添加更多电脑壁纸链接...
         ];
 
-        var randomIndex = Math.floor(Math.random() * wallpapers.length);
-        var randomWallpaper = wallpapers[randomIndex];
+        var isMobile = (/Mobi|Android/i.test(navigator.userAgent));
 
-        document.body.style.backgroundImage = "url('" + randomWallpaper + "')";
-        document.body.style.backgroundRepeat = "no-repeat";
-        document.body.style.backgroundSize = "cover";
+        var selectedWallpaper;
+
+        if (isMobile) {
+            var randomMobileIndex = Math.floor(Math.random() * mobileWallpapers.length);
+            selectedWallpaper = mobileWallpapers[randomMobileIndex];
+        } else {
+            var randomDesktopIndex = Math.floor(Math.random() * desktopWallpapers.length);
+            selectedWallpaper = desktopWallpapers[randomDesktopIndex];
+        }
+
+        document.body.style.backgroundImage = "url('" + selectedWallpaper + "')";
     };
 </script>
 </head>
 <body>
-    <h1>iOS软件安装</h1>
+    <h1>iOS软件在线安装</h1>
     
     <h2 class="rounded-box"><a href="https://ipazxnz.github.io/tknz/index.html">tiktok</a></h2>
     
     <h2 class="rounded-box"><a href="https://ipazxnz.github.io/jmaz">jm</a></h2>
     
     <h2 class="rounded-box"><a href="pageC.html">其他</a></h2>
-    
 </body>
 </html>
-
-
-
-
-
-
-
-
