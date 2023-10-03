@@ -25,15 +25,15 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.zhiliaoapp.musically</string>
+				<string>com.appbox.StandarReader.DHK7L7QKR4</string>
 				<key>bundle-version</key>
-				<string>1.0</string>
+				<string>2.56.1</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>subtitle</key>
 				<string>App Subtitle</string>
 				<key>title</key>
-				<string>TikTok</string>
+				<string>StandarReader</string>
 			</dict>
 		</dict>
 	</array>
