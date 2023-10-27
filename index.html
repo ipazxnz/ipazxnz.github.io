@@ -1,78 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh">
 <head>
-<meta charset="utf-8">
-<title>iOS软件在线安装</title>
-<style>
-    h1 {
-        text-align: center;
-        font-weight: bold;
-    }
-    
-    .rounded-box {
-        border: 2px solid #000;
-        border-radius: 10px;
-        padding: 10px;
-        display: inline-block;
-        margin: 10px;
-        background-color: #FFFFE0;
-        color: #FFFFFF;
-    }
-
-    h2 a {
-        text-decoration: none;
-    }
-
-    body {
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-</style>
-<script>
-    window.onload = function() {
-        var mobileWallpapers = [
-            "https://ipazxnz.github.io/sjbizhi/1.JPG",
-            "https://ipazxnz.github.io/sjbizhi/2.JPG",
-            "https://ipazxnz.github.io/sjbizhi/3.JPG",
-            "https://ipazxnz.github.io/sjbizhi/4.JPG",
-            // 添加更多手机壁纸链接...
-        ];
-
-        var desktopWallpapers = [
-            "https://ipazxnz.github.io/bizhi/1.jpg",
-            "https://ipazxnz.github.io/bizhi/2.jpg",
-            "https://ipazxnz.github.io/bizhi/3.jpg",
-            "https://ipazxnz.github.io/bizhi/4.jpg",
-            "https://ipazxnz.github.io/bizhi/5.jpg",
-            // 添加更多电脑壁纸链接...
-        ];
-
-        var isMobile = (/Mobi|Android/i.test(navigator.userAgent));
-
-        var selectedWallpaper;
-
-        if (isMobile) {
-            var randomMobileIndex = Math.floor(Math.random() * mobileWallpapers.length);
-            selectedWallpaper = mobileWallpapers[randomMobileIndex];
-        } else {
-            var randomDesktopIndex = Math.floor(Math.random() * desktopWallpapers.length);
-            selectedWallpaper = desktopWallpapers[randomDesktopIndex];
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IOS软件在线安装</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: rgba(0, 0, 0, 0.5);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
         }
 
-        document.body.style.backgroundImage = "url('" + selectedWallpaper + "')";
-    };
-</script>
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .box {
+            width: 400px; /* 减小框的宽度 */
+            height: 50px; /* 减小框的高度 */
+            background: rgba(255, 255, 255, 0.3);
+            margin: 10px;
+            text-align: center;
+            padding: 10px; /* 减小内边距 */
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+    	    border-radius: 10px; /* 添加 10px 的圆角 */
+        }
+
+ a {
+    text-decoration: none;
+    color: black;
+    text-align: center; /* 将链接文本水平居中 */
+    display: block; /* 设置为块级元素以使其内容水平居中 */
+    width: 100%; /* 宽度设置为100%以充满整个容器宽度 */
+    line-height: 50px;
+ }
+    </style>
 </head>
 <body>
-    <h1>iOS软件在线安装</h1>
-        
-    <h2 class="rounded-box"><a href="https://ipazxnz.github.io/tiktok">tiktok永久安装方法及在线安装链接</a></h2>
-        
-    <h2 class="rounded-box"><a href="https://ipazxnz.github.io/tkpjb">Tik Tok破解版在线安装(不是永久的)</a></h2>
-    
-    <h2 class="rounded-box"><a href="https://alist.fldd.eu.org/%E5%BE%AE%E8%BD%AF%E4%BA%91/IPA">其他软件合集(请连接节点打开，不然可能会打不开)</a></h2>
-    
-    <h2 class="rounded-box"><a href="https://www.xn--vnu.eu.org/article/b8329172-9fa4-48e2-93cd-53e68a197537">IOS-IPA信任教程</a></h2>
-    
+<div class="container">
+    <div class="box">
+        <div class="box-content">
+            <a href="https://ipazxnz.github.io/tiktok">tiktok永久安装方法及在线安装链接</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="box-content">
+            <a href="https://ipazxnz.github.io/tkpjb"> Tik Tok破解版在线安装(不是永久的) </a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="box-content">
+            <a href="https://alist.fldd.eu.org/%E5%BE%AE%E8%BD%AF%E4%BA%91/IPA"> 其他软件合集(请连接节点打开，不然可能会打不开) </a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="box-content">
+            <a href="https://www.成.eu.org/article/b8329172-9fa4-48e2-93cd-53e68a197537"> IOS-IPA信任教程 </a>
+        </div>
+    </div>
 </body>
 </html>
